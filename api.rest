@@ -1,0 +1,30 @@
+###
+GET http://localhost:3000/api/usuarios
+
+###
+POST http://localhost:3000/api/usuarios
+Content-Type: application/json
+
+{
+    "name": "Carolina",
+    "lastname": "Garcia",
+    "age": "20",
+    "preferences": ["animacion 3D", "modelado 3D"]
+}
+
+###
+GET http://localhost:3000/api/usuarios/kamerr
+
+###
+PUT http://localhost:3000/api/usuarios/5f65345c2185301648069d61
+Content-Type: application/json
+
+{
+    "name": "Danny",
+    "lastname": "Palma",
+    "age": "18",
+    "preferences": ["ver netflix", " verte a ti wapo"]
+}
+
+###
+DELETE http://localhost:3000/api/usuarios/5f6533bf2185301648069d60
